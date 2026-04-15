@@ -1,0 +1,20 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "sk-bd5bd567d68f4037f347ad79876391632c780c4060786ed0",
+    "ANTHROPIC_BASE_URL": "http://101.245.86.233:3670",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "ANTHROPIC_MODEL": "deepseek/deepseek-v3.2@x-express-opensource",
+    "ANTHROPIC_SMALL_FAST_MODEL": "agent/minimax-m2.7@x-express-opensource",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "agent/minimax-m2.5@x-express-opensource",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "anthropic/claude-sonnet-4.6@x-express-opensource",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "anthropic/claude-opus-4.6@x-express-internal"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)"
+    ],
+    "deny": []
+  },
+  "thinking": true,
+  "model": "haiku"
+}
